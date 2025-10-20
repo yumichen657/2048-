@@ -55,7 +55,7 @@ GameManager.prototype.setup = function () {
   }
 
   // **左上角自動生成 9192 方塊**
-  this.grid.cells[0][0] = new Tile({ x: 0, y: 0 }, 9192);
+  this.grid.cells[0][0] = new Tile({ x: 0, y: 0 }, 32768);
 
   // Update the actuator
   this.actuate();
